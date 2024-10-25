@@ -1,0 +1,71 @@
+.fotter{
+    
+    
+  
+    width: 95%;
+ height: 20vh;
+ font-size: 15px; /* Adjust font size */
+ color: #333; /* Dark gray text color */
+ /* Justify the text for a clean layout */
+ background-color: #f9f9f9; /* Light background color */
+ border-radius: 15%; /* Rounded corners */
+ box-shadow: 0 6px 3px 6px  black;  
+ margin-left: 1.5vh;
+}
+.two{
+    display: flex;
+}
+.phone{
+    width: 45%;
+
+}
+.phone a{
+    display: flex;
+    flex-direction: row;
+    padding-left: 6vh;
+    padding-top: 1vh;
+}
+.phone img{
+    width: 5vh;
+}
+.fimg {
+    display: block;       /* Make the image a block element */
+    margin-left: auto;   /* Automatically set left margin */
+    margin-right: auto;  /* Automatically set right margin */
+}
+.email{
+    width: 50%; 
+}
+.email img{
+    display: block;       /* Make the image a block element */
+    margin-left: auto;   /* Automatically set left margin */
+    margin-right: auto;
+    width: 5vh;
+}
+.email a{
+display: flex;
+padding-top: 2.5vh;
+padding-right: 2vh;
+    
+    
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .fotter{
+        width: 50%;
+       margin-left: 17vh;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px){
+    .fotter
+    {
+        width: 50%;
+        margin-left: 30vh;
+        border-radius: 30%;
+    }
+   .fotter a{
+    padding-left: 6vh;
+   }
+   .phone a{
+    padding-left: 10vh;
+   }
+}

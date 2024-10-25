@@ -1,0 +1,123 @@
+*{
+   
+    /* color: wheat;
+
+ */
+}
+
+.header{
+    margin-top: 2vh;
+    margin-right: 2vh;
+    margin-left: 2vh;
+    
+    display: flex;
+    width: 90%;
+ height: 55vh;
+ font-size: 15px; /* Adjust font size */
+ color: #333; /* Dark gray text color */
+ text-align: justify; /* Justify the text for a clean layout */
+ background-color: #f9f9f9; /* Light background color */
+ border-radius: 40px; /* Rounded corners */
+ box-shadow: 0 6px 3px 6px  gray;  
+}
+.social
+{
+    width:10%; 
+    padding-top: 15vh;
+    padding-left: 2vh;
+ /* background-color: yellow; */
+    
+}
+.social a
+{
+    padding-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about
+{
+    
+        
+    width: 80%; 
+    
+    
+}
+.about p{
+    padding-left: 5vh;
+    padding-right: 3vh;
+}
+
+.ins
+{
+    width: 4vh;
+}
+.tel
+{
+    width: 4vh;
+}
+.github
+{
+    width: 4vh;
+}
+h1{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .header{
+        height: 35vh;
+        border-radius: 5%;
+        width: 90%;
+        margin-left:4vh ;
+        box-shadow: 0 6px 6px 6px  black;
+       
+    }
+    .social{
+        padding-top: 6vh;
+    }
+    .about{
+        padding-top: 2vh;
+    }
+    .about p{
+        font-size: larger;
+        
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+.header{
+    
+    height: 30vh;
+    border-radius: 3%;
+    width: 95%;
+    box-shadow: 0 6px 3px 6px  #1b0f0f; 
+
+}
+.social{
+    padding-top: 5vh;
+}
+.about p{
+    font-size: larger;
+    
+}
+}
+@media only screen and (min-width: 1441px) {
+    .header{
+    
+        height: 30vh;
+        border-radius: 3%;
+        width: 95%;
+        box-shadow: 0 6px 3px 6px  #1b0f0f; 
+    
+    }
+    .social{
+        padding-top: 5vh;
+    }
+}

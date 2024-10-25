@@ -1,0 +1,108 @@
+.main{
+ /*display: flex; */
+width: 90%;
+}
+.front{
+    width: 100%;
+   text-align: center;
+   margin-bottom: 3vh;
+   font-size: 15px; /* Adjust font size */
+   color: #333; /* Dark gray text color */
+   text-align: center; /* Justify the text for a clean layout */
+   background-color: white; /* Light background color */
+   border-radius: 50px; /* Rounded corners */
+   box-shadow: 0 6px 3px 6px  #1b0f0f; 
+   margin: 2vh;
+   height: 40vh;
+}
+.back
+{
+    margin: 2vh;
+    height: 40vh;
+    text-align: center;
+    width: 100%;
+    font-size: 15px; /* Adjust font size */
+    color: #333; /* Dark gray text color */
+    
+    text-align: center; /* Justify the text for a clean layout */
+    background-color: white; /* Light background color */
+    border-radius: 50px; /* Rounded corners */
+    box-shadow: 0 6px 3px 6px  #1b0f0f; 
+}
+.front img{
+    padding: 2vh;
+    width: 8vh;
+}
+
+.back img {
+    padding: 2vh;
+    width: 8vh; 
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px)
+{
+    .main{
+    
+        display: flex;
+        width: 100%;
+        margin-top: 3vh;
+
+    }
+    .front{
+        border-radius:10%;
+        width: 50%;
+        background-color: white;
+        box-shadow: 0 6px 6px 6px  black;
+    }
+    .front img{
+        width: 7vh;
+
+    }
+
+    .back img{
+        width: 7vh;
+
+    }
+    .back{
+        height: 40vh;
+        border-radius:10%;
+        width: 50%;
+        
+        background-color: white;
+        box-shadow: 0 6px 6px 6px  black;
+    }
+    
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px){
+    .main{
+        
+        display: flex;
+        width: 95%;
+        margin-top: 3vh;
+        margin-left: 4vh;
+    }
+    .front{
+        height: 40vh;
+        border-radius: 5%;
+        box-shadow: 0 6px 3px 6px  #1b0f0f; 
+        width: 42%;
+background-color: white;
+    }
+    .front img{
+        height: 10vh;
+        padding: 3vh;
+    }
+    .back{
+        height: 40vh;
+        border-radius: 5%;
+        background-color: #d7cbcbe2;
+        box-shadow: 0 6px 3px 6px  #1b0f0f; 
+        width: 43%;
+        background-color: wheat;
+
+    }
+    .back img{
+        height: 10vh;
+        padding: 3vh;
+    }
+}
